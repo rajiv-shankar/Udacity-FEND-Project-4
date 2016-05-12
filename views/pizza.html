@@ -1,7 +1,65 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <!-- MAKE BROWSER RENDER THE WIDTH OF THE PAGE AT THE WIDTH OF ITS OWN SCREEN (COPIED FROM index.html) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- INLINED style.css -->
+  <style>
+    /** {
+      outline: 1px solid red !important;
+    }*/
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      background: black;
+    }
+
+    input {
+      background: grey;
+      font-size: 18px;
+    }
+
+    form {
+      display: inline-block;
+    }
+
+    .centered {
+      text-align: center;
+    }
+
+    #pizzaSize {
+      font-weight: 800;
+    }
+
+    .mover {
+      position: fixed;
+      width: 256px;
+      z-index: -1;
+    }
+
+    .randomPizzaContainer {
+      float: left;
+      display: flex;
+    }
+
+    .randomPizzaContainer:after {
+      content: "";
+      display: table;
+      clear:both;
+    }
+
+     .container {
+      background-color: rgba(240, 60, 60, 0.8);
+    }
+    </style>
+
   <link rel="stylesheet" href="css/bootstrap-grid.css">
 </head>
 
@@ -11,7 +69,7 @@
       <div class="col-md-6">
         <div class="row">
           <div class="col-md-12">
-            <h1>Raj's Pizzeria</h1>
+            <h1>Cam's Pizzeria</h1>
             <div class="row">
               <div id="menu" class="col-md-12">
                 <form action="#randomPizzas">
