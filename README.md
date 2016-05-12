@@ -29,16 +29,16 @@
 
 5.	Optimize pizza.png (to reduce size)  [363]
 6.	Replace `querySelectorAll` by `getElementsByClass` to access the DOM faster  [391, 485, 526]
-7.	Delete determineDx & sizeSwitcher as not required to change pizza sizes directly (see 435 below)  [411]
-8.	Change sizeSwitcher to changePizzaSizes  [428]
-9.	Remove document.getElementsByClassName and –.length outside for loop (constant; unnecessary to call DOM repeatedly)  [431]
+7.	Delete `determineDx` & `sizeSwitcher` as not required to change pizza sizes directly (see 435 below)  [411]
+8.	Change `sizeSwitcher` to `changePizzaSizes`  [428]
+9.	Remove `document.getElementsByClassName` and `–.length` outside `for` loop (constant; unnecessary to call DOM repeatedly)  [431]
 10.	Changes width of each element to new width using percentages  [435]
-11.	Remove document.getElementById outside for loop (constant; unnecessary to call DOM repeatedly)  [451]
-12.	Remove items.length and document.body.scrollTop/1250 outside for loop (constant; unnecessary to call DOM repeatedly)  [488]
-13.	Reduce number of pizzas to only that necessary to fill the screen, using screen.availHeight  [515]
+11.	Remove `document.getElementById` outside `for` loop (constant; unnecessary to call DOM repeatedly)  [451]
+12.	Remove `items.length` and `document.body.scrollTop/1250` outside `for` loop (constant; unnecessary to call DOM repeatedly)  [488]
+13.	Reduce number of pizzas to only that necessary to fill the screen, using `screen.availHeight`  [515]
 
 <h3>Possible further improvements:</h3>
-14.	I understand that (i % 5) = {0,1,2,3,4} for all i <= 0, but how can this be used to speed up the page?  This computation changes with every run of the for loop (i.e. it is not constant, so can be moved out of the loop).  [493]
+14.	I understand that `(i % 5)` = {0,1,2,3,4} for all i <= 0, but how can this be used to speed up the page?  This computation changes with every run of the `for` loop (i.e. it is not constant, so can be moved out of the loop).  [493]
 15.	Remove css/style.css?  Not required anymore, as it is inlined in pizza.html.
 
 <h2>Other</h2>
