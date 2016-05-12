@@ -1,6 +1,6 @@
-<h1>Udacity FEND P4: Website Performance Optimization</h1>
+#Udacity FEND P4: Website Performance Optimization
 
-<h2>Part 1: Optimize PageSpeed Insights score for _index.html_</h2>
+##Part 1: Optimize PageSpeed Insights score for _index.html_
 
 1.	Host project on GitHub pages [Score: 30]
 2.	Resize/compress *pizzeria.jpg* from 2.25 MB to 22 KB [Score: 88]
@@ -9,7 +9,7 @@
 5.	Remove font styles without any noticeable change in website (but see below) [Score: 94]
 6.	Inline *perfmatters.js* and move to bottom [Score: 95]
 
-<h3>Possible further improvements:</h3>
+###Possible further improvements:
 7.	Inline font styles (see details given in index.html/13)
 8.	Leverage browser caching of: *profilepic.jpg* (by 10 minutes), *perfmatters.js* (10 minutes), *pizzeria.jpg* (10 minutes), *analytics.js* (2 hours)
 9.	Optimize images further
