@@ -1,6 +1,6 @@
 <h1>Udacity FEND P4: Website Performance Optimization</h1>
 
-<h2>Part 1: Optimize PageSpeed Insights score for *index.html*</h2>
+<h2>Part 1: Optimize PageSpeed Insights score for _index.html_</h2>
 
 1.	Host project on GitHub pages [Score: 30]
 2.	Resize/compress *pizzeria.jpg* from 2.25 MB to 22 KB [Score: 88]
