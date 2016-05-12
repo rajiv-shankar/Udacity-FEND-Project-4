@@ -28,8 +28,8 @@
 <h3>Changes to main.js:</h3>
 
 5.	Optimize pizza.png (to reduce size)  [363]
-6.	Replace <mark>querySelectorAll</mark> by <mark>getElementsByClass</mark> to access the DOM faster  [391, 485, 526]
-7.	Delete <mark>determineDx</mark> & <mark>sizeSwitcher</mark> as not required to change pizza sizes directly (see 435 below)  [411]
+6.	Replace `querySelectorAll` by `getElementsByClass` to access the DOM faster  [391, 485, 526]
+7.	Delete determineDx & sizeSwitcher as not required to change pizza sizes directly (see 435 below)  [411]
 8.	Change sizeSwitcher to changePizzaSizes  [428]
 9.	Remove document.getElementsByClassName and –.length outside for loop (constant; unnecessary to call DOM repeatedly)  [431]
 10.	Changes width of each element to new width using percentages  [435]
