@@ -43,9 +43,9 @@
 
 <h2>Other</h2>
 
-1.	Project viewable at:  rajiv-shankar.github.io/Udacity-FEND-Project-4
-2.	Minified files at:  github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/gh-pages
-3.	Source files at:  github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/FEND-P4-RS
+1.	Project viewable at:  http://rajiv-shankar.github.io/Udacity-FEND-Project-4
+2.	Minified files at:  http://github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/gh-pages
+3.	Source files at:  http://github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/FEND-P4-RS
 4.	New ReadMe document
 5.	All changes given in files, as well, in ALLCAP and block comments (usually), to distinguish them from existing comments.
 
