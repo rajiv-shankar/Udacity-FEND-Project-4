@@ -38,13 +38,14 @@
 13.	Reduce number of pizzas to only that necessary to fill the screen, using screen.availHeight  [515]
 
 <h3>Possible further improvements:</h3>
-14.	I understand that (i % 5) = {0,1,2,3,4} for all i  0, but how can this be used to speed up the page?  This computation changes with every run of the for loop (i.e. it is not constant, so can be moved out of the loop).  [493]
+14.	I understand that (i % 5) = {0,1,2,3,4} for all i <= 0, but how can this be used to speed up the page?  This computation changes with every run of the for loop (i.e. it is not constant, so can be moved out of the loop).  [493]
 15.	Remove css/style.css?  Not required anymore, as it is inlined in pizza.html.
 
 <h2>Other</h2>
 
-•	Project available at rajiv-shankar.github.io/Udacity-FEND-Project-4
-•	The minified files are at github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/gh-pages
-•	Folders: src contains readable code and dist contains minified files
-•	Wrote this ReadMe document
-•	All changes given in files as well in ALLCAP in block comments (usually), to distinguish them from existing comments.
+1.	Project available at rajiv-shankar.github.io/Udacity-FEND-Project-4
+2.	The minified files are at github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/gh-pages
+3.	Folders: src contains readable code and dist contains minified files
+4.	Wrote this ReadMe document
+5.	All changes given in files as well in ALLCAP in block comments (usually), to distinguish them from existing comments.
+
