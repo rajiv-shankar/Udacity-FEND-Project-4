@@ -6,7 +6,7 @@
 2.	Resize/compress pizzeria.jpg from 2.25 MB to 22 KB [Score: 88]
 3.	Add async attribute to google-analytics script and move to bottom [Score: 88]
 4.	Inline style.css & print.css and move to bottom [Score: 89]
-5.	Remove font styles without any noticeable change in website (but see 7 below) [Score: 94]
+5.	Remove font styles without any noticeable change in website (but see below) [Score: 94]
 6.	Inline perfmatters.js and move to bottom [Score: 95]
 
 <h3>Possible further improvements:</h3>
@@ -43,9 +43,10 @@
 
 <h2>Other</h2>
 
-1.	Project available at rajiv-shankar.github.io/Udacity-FEND-Project-4
-2.	The minified files are at github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/gh-pages
-3.	Folders: src contains readable code and dist contains minified files
-4.	Wrote this ReadMe document
-5.	All changes given in files as well in ALLCAP in block comments (usually), to distinguish them from existing comments.
+1.	Project viewable at:  rajiv-shankar.github.io/Udacity-FEND-Project-4
+2.	Minified files at:  github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/gh-pages
+3.	Source files at:  github.com/rajiv-shankar/Udacity-FEND-Project-4/tree/FEND-P4-RS
+4.	New ReadMe document
+5.	All changes given in files, as well, in ALLCAP and block comments (usually), to distinguish them from existing comments.
+
 
