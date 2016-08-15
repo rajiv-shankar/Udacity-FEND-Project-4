@@ -1,4 +1,4 @@
-#Udacity FEND P4: Website Performance Optimization
+Website Performance Optimization
 
 ##Part 1: Optimize PageSpeed Insights score for *index.html*
 
